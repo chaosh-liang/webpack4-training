@@ -28,7 +28,7 @@ const config = {
       filename: "css/[name].[contenthash:6].css", // 自定义样式 development 自动修改为：[name].[contenthash].css
       chunkFilename: "css/[name].[contenthash:6].css", // 供应商(vendor)样式
     }),
-    new UserPrintPlugin(),
+    // new UserPrintPlugin(),
   ],
   module: {
     rules: [

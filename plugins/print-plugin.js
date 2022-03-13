@@ -9,7 +9,7 @@ module.exports = class {
       console.log("assets => ", compilation.assets);
       console.log(
         "main.css => ",
-        compilation.assets["css/main.45ec9d.css"].source()
+        compilation.assets["css/main.45ec9d.css"].source() // 注：hash 有可能不是这个
       );
 
       callback();
