@@ -1,9 +1,9 @@
 import "./less/ins.less";
 import { greeting } from "./modules/greetings";
 
-import girl from "./images/girl2.png";
+import girl from "./images/girl.png";
 
-// const copy = require("./modules/cjs");
+const copy = require("./modules/cjs");
 
 // 异步加载模块
 import("./modules/one-async").then(({ add }) => {
@@ -12,7 +12,7 @@ import("./modules/one-async").then(({ add }) => {
 
 console.log("这是入口文件index.js 的内容");
 
-// console.log("Commonjs 规范的模块引入 => ", copy);
+console.log("Commonjs 规范的模块引入 => ", copy);
 
 const div = document.createElement("div");
 div.className = "apa";
